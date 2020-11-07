@@ -1,0 +1,30 @@
+Home Page
+
+<form method="get" action="{% url 'gn' %}">
+    <br>
+    <label> Capital
+        <input type="checkbox" name="capital">
+    </label>
+
+    <br>
+    <label> Complex
+        <input type="checkbox" name="complex">
+    </label>
+
+    <br>
+    <label> Number
+        <input type="checkbox" name="number">
+    </label>
+
+    <br>
+    <label> Length
+        <select name="length">
+            <option value="4">4</option>
+            <option value="5" selected="selected">5</option>
+            <option value="6">6</option>
+        </select>
+    </label>
+
+    <br>
+    <input type="submit" value="Generate">
+</form>
